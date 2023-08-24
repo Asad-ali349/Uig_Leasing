@@ -1,0 +1,15 @@
+3 fields added in customer_bank .
+
+bank_access_token  it is varchar(256)
+bank_stripe_customer_ach it is varchar(256)
+
+is_bank_verified(int) 1 is used for verified , 0 is for non verified.
+
+.............................
+2 fields added in Transactions table.
+
+is_bank_transaction : it is int : it is 1 if bank trasaction, 0 if not bank transaction
+is_card_transaction : it is int : it is 1 if card trasaction, 0 if not card transaction
+
+..............................
+
